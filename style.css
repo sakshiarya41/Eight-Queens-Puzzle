@@ -9,23 +9,20 @@
 body {
     font-family: "Labrada",Arial, Helvetica, sans-serif;
     /* background:#828382; */
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
-    height: 100vh;
+    background: linear-gradient(to right, #09203f 0%, #537895 100%);
 }
 
-.game_board{
-    /* position: relative; */
-    margin-top: 5%;
-}
 
 #chessboard {
-    width: 520px;
-    height: 520px;
+    width: 496px;
+    height: 496px;
+    margin-top: -4%;
  }
+
  .chess-square {
     float: left;
-    width: 65px;
-    height: 65px;
+    width: 62px;
+    height: 62px;
     background-color: #ebebd6;
  }
 
@@ -39,34 +36,35 @@ body {
 
 
 .rules{
-    max-width: 40%;
-    margin: -3em 2em 0em 2em;
+    max-width: 50%;
+    margin: -2em 2em 0em 1em;
     color:white;
-    /* border: 1px solid black; */
+  
 }
+
 li.about{
     list-style-type: none;
-    font-size: 25px;
+    font-size: 1.5em;
     font-family: "Labrada";
-    /* border: 1px solid black; */
+ 
 }
 .rules ul li{
     font-size: 1.1em;
     margin-left: 2em;
     list-style-type: square;
+    line-height: 1em;
 }
 
 .game_board{
-    max-width: 60%;
-    height: 82vh;
-    margin: 2em 10em 0em 2em;
+    max-width: 50%;
+    height: 80%;
+    margin: 2em 5em 0em 2em;
 }
 
 header{
     margin-top: 10px;
     color:white;
     font-family:"Rampart One";
-    /* border-bottom: 2px solid white; */
 }
 
 header i {
@@ -82,8 +80,10 @@ h1, h3 {
 
 
 h3 {
+    font-size: 2em;
     text-align: left;
     border-bottom:1px solid white; 
+    margin-top: 4%;
     padding-bottom: 1%;
 }
 
@@ -100,7 +100,7 @@ h3 {
     padding: 0.2em;
     width: 120px;
     height: 50px;
-    background-color:#537895;  /* #212529 */
+    background-color:#082c5b;  
     border-radius: 30px;
     color: #fff;
     cursor: pointer;
